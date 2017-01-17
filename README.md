@@ -1,0 +1,3 @@
+##Jaqpot Interlab Training 
+
+Python web service for assessing bias amongst labs. A coordinator user collects all measurements (single or multiple) for the same endpoint from different labs and optionally their reported uncertainty. Algorithmically calculates robust average, robust standard deviation and uncertainty of assigned value. Runs 8 statistical tests and provides anonymised outliers with warning or action signals, depending on the level of their deviation. Provides 7 plots for visualisation. Report returned is editabe and downloadable as PDF. Available at  http://test.jaqpot.org:8080/jaqpot/swagger/#!/interlab/interLabTest
